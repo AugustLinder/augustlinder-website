@@ -1,0 +1,269 @@
+html {
+	scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+	color: #0c3252;
+}
+
+body {
+	font-family: Century Gothic;
+	color: #0c3252;
+	font-size: 2vw;
+	margin: 0px;
+}
+
+header {
+	padding: 2vw;
+	padding-bottom: 0vw;
+	background-color: none;
+}
+
+header h1 {
+	margin: 1vw;
+	display: inline-block;
+	font-weight: normal;
+	font-size: 3vw;
+	text-align: left;
+	padding: 1vw 4vw;
+	text-decoration: none;
+	color: #0c3252
+}
+
+.clear {
+	clear:both;
+}
+
+ul {
+	font-size: 2vw;
+	margin: 2vw;
+	display: inline-block;
+	padding: 1vw;
+}
+
+ul li {
+	display: inline-block;
+	margin: 0vw;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #0c3252;
+	padding: 1vw;
+
+}
+
+ul li a:hover {
+	background-color: #AEC2D4;
+}
+
+ul li.active {
+	font-weight: bold;
+}
+
+header hr {
+	width: 60vw;
+	margin-left: 2vw;
+	border: 1px solid #0c3252;
+	margin-bottom: 10vw;
+}
+
+hr {
+	border: 1px solid #0c3252;
+	width: 60vw;
+}
+
+section {
+	padding: 5vw 0vw;
+	text-align: center;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+.project {
+	display: inline-block;
+	justify-content: center;
+	width: 30%;
+}
+
+.CV {
+	background-color: #AEC2D4;
+}
+
+.projects {
+	background-color: none;
+}
+
+.about {
+	padding: 0vw;
+	margin: 0vw;
+	text-align: left;
+	background-color: #AEC2D4;
+}
+
+.about img {
+	width: 35%;
+	float: right;
+	margin-right: 10vw;
+}
+
+.about p  {
+	padding: 5vw 8vw;
+	float: left;
+	width: 30%;
+	text-align: left;
+}
+
+.imgcontainer {
+	margin: auto;
+	width: 90%;
+	display: block;
+	position: relative;
+	color: #0c3252;
+}
+
+.projects .imgcontainer img {
+	width: 100%;
+	border: 3px solid #0c3252;
+	border-radius: 1vw;
+	margin: auto;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(250, 250, 250, 0.8);
+	font-weight: bold;
+	text-align: center;
+	opacity: 0;
+	border-radius: 1vw;
+	border: 3px solid rgba(0, 0, 0, 0);
+}
+
+.overlay p {
+	padding: 2vw;
+}
+
+.imga:hover .overlay {
+	opacity: 1;
+	transition: .5s ease;
+}
+
+.CV {
+	text-align: center;
+}
+
+.CV p {
+	margin: auto;
+	max-width: 60vw;
+}
+
+ul ul {
+	margin: 0vw;
+	margin-left: 6vw;
+}
+
+ul ul li {
+	dipslay: inline;
+}
+
+header .fa {
+	margin: 0.5vw;
+	padding: 1.5vw;
+	font-size: 4vw;
+	text-decoration: none;
+	opacity: 0.6;
+	border-radius: 3vw;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-instagram {
+	background: #125688;
+	color: white;
+}
+
+.fa-youtube {
+	background: #bb0000;
+	color: white;
+}
+
+@media screen and (max-width: 1100px) {
+	body {
+		font-size: 3vw;
+	}
+
+    header {
+    	text-align: center;
+    }
+
+    header h1 {
+    	text-align: center;
+        font-size: 6vw;
+        display: block;
+    }
+
+    header ul {
+    	display: block;
+    	font-size: 3vw;
+    	margin-bottom: 0vw;
+    }
+
+    header ul li {
+    	display: block;
+    }
+
+    header ul li a {
+    	padding: 6px;
+    	display: block;
+    }
+
+    header hr {
+    	margin: 2vw auto;
+    }
+
+    .about p {
+    	width: 80%;
+    	float: none;
+    	text-align: center;
+    	margin: auto;
+    }
+
+    .about img {
+    	width: 70%;
+    	float: none;
+    	display: block;
+    	margin: auto;
+    }
+
+    .project {
+    	display: block;
+    	margin: auto;
+    	width: 60%;
+    }
+
+    .project img {
+    	width: 70%;
+    }
+
+    header .fa {
+    	font-size: 6vw;
+    	padding: 3vw;
+    }
+
+    header ul ul {
+    	margin: 2vw;
+    }
+
+    header ul ul li {
+    	display: inline-block;
+    }
+}  
